@@ -1,4 +1,4 @@
-module aws-billing-go
+module github.com/tqer39/aws-billing-go
 
 go 1.17
 
