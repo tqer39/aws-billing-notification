@@ -88,7 +88,7 @@ jobs:
 
   slack_notification:
     name: "Slack Notification"
-    needs: publish # set needs only last job except this job
+    needs: terraform
     runs-on: ubuntu-latest
     if: always() # set always
     steps:
