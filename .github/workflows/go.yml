@@ -28,4 +28,4 @@ jobs:
       - name: Test
         id: test
         working-directory: "go"
-        run: go test -v ./...
+        run: go test -v ./... -short

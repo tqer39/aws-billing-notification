@@ -7,6 +7,9 @@ import (
 )
 
 func TestGetCost(t *testing.T) {
+	if testing.Short() {
+		t.Skip("skipping test in short mode.")
+	}
 	ctx := context.TODO()
 	client, err := NewConfig(ctx)
 	if err != nil {
