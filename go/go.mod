@@ -1,4 +1,4 @@
-module github.com/tqer39/aws-billing-go
+module github.com/tqer39/aws-billing-notification
 
 go 1.17
 

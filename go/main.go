@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/tqer39/aws-billing-go/utils"
+	"github.com/tqer39/aws-billing-notification/utils"
 )
 
 func main() {
